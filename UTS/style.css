@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  margin: 50px;
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  text-align: left;
+  color: black;
+}
+
+form {
+  background: white;
+  padding: 80px;
+  border-radius: 10px;
+  width: 500px;
+  margin: left;
+  box-shadow: black;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  align-self: flex-start;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+input[type="submit"]:hover {
+  background-color: grey;
+}
+
+.container {
+    text-align: left;
+    justify-content: right;
+    align-self: flex-start;
+    margin-left: 50px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+    margin: left;
+    box-shadow: black;
+}
+
+.container2 {
+    text-align: left;
+    justify-content: right;
+    align-self: flex-end;
+    margin-left: 50px;
+}
+
+.kotak {
+    background: #fff;
+    padding: 25px 40px;
+    border-radius: 6px;
+    display: inline-block;
+}

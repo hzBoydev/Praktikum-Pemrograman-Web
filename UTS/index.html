@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UTS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <form>
+      <h2>Input Data</h2>
+      <hr>
+      <br>
+    <label>NAMA</label><br>
+    <input type="text" name="nama" placeholder="Masukkan Nama"><br><br>
+
+    <label>NIM</label><br>
+    <input type="text" name="nim" placeholder="241110244"><br><br>
+
+    <label>SEMESTER</label><br>
+    <input type="text" name="semester" placeholder="1-8"><br><br>
+
+    <label for="program studi">PROGRAM STUDI</label><br>
+    <input type="text" list="pilih" placeholder="-- Pilih --">
+    <datalist id="pilih">
+        <option value="Teknik Informatika">Teknik Informatika</option>
+        <option value="Kedokteran">Kedokteran</option>
+        <option value="Hukum">Hukum</option>
+        <option value="Psikologi">Psikologi</option>
+        <option value="Farmasi">Farmasi</option>
+    </datalist><br><br>
+
+    <label>EMAIL</label><br>
+    <input type="text" name="email" placeholder="email@example.com"><br><br>
+
+    <input type="submit" value="Kirim">
+  </form><br><br>
+
+    <div class="gabung">
+    <div class="container">
+    <div class="kotak">
+        <h2>Informasi Pengirimian</h2>
+        <hr><br>
+        <b>Apa yang terjadi saat Anda klik "Kirim Data"?</b>
+        <p>✔ Data ditampilkan di Console</p>
+        <p>✔ Data disimpan di array</p>
+        <p>✔ Jumlah data di-update</p>
+        <p>✔ Form akan kosong kembali</p>
+    </div>
+    </div><br><br>
+
+    <div class="container2">
+    <div class="kotak">
+        <h2>Tabel Mahasiswa</h2>
+        <div class="table">
+        <table border="0" cellpadding="10" cellspacing="0">
+            <tr>
+                <th>NO</th>
+                <th>NAMA</th>
+                <th>INFO</th>
+            </tr>
+
+            <tr>
+                <td rowspan="2">1</td>
+                <td rowspan="2">Hifzi Khairi</td>
+                <td><b>Prodi:</b></td>
+                <td>Teknik Informatika</td>
+            </tr>
+
+            <tr>
+                <td><b>Semester:</b></td>
+                <td>3</td>
+            </tr>
+
+            <td rowspan="2">2</td>
+                <td rowspan="2">Ica</td>
+                <td><b>Prodi:</b></td>
+                <td>Kedokteran</td>
+            </tr>
+
+            <tr>
+                <td><b>Semester:</b></td>
+                <td>4</td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    </div>
+
+</body>
+</html>
